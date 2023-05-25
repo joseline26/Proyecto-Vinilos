@@ -10,7 +10,9 @@ import { HeaderComponent } from './components/header/header.component';
 import { HomePageComponent } from './components/home-page/home-page.component';
 
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { PersonalizadoComponent } from './components/personalizado/personalizado.component'
+import { PersonalizadoComponent } from './components/personalizado/personalizado.component';
+import { CarritoComponent } from './components/carrito/carrito.component';
+import { GenerosComponent } from './components/generos/generos.component'
 
 
 
@@ -20,7 +22,9 @@ import { PersonalizadoComponent } from './components/personalizado/personalizado
     FooterComponent,
     HeaderComponent,
     HomePageComponent,
-    PersonalizadoComponent
+    PersonalizadoComponent,
+    CarritoComponent,
+    GenerosComponent
   ],
   imports: [
     BrowserModule,
