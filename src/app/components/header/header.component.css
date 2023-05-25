@@ -1,0 +1,54 @@
+.icons{
+    height: 35px;
+    width: 35px;
+    margin: 25px 20px -25px;
+}
+
+svg{
+    height: 35px;
+    width: 35px;
+    margin: 25px 20px -25px;
+    color: white;
+}
+
+.navbar{
+    margin: 20px 10px -25px;
+}
+
+.logo{
+    margin: -20px 0px -25px;
+    justify-content: center;
+}
+
+
+
+.p-2{
+    padding: 0.5rem!important;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-scroller .nav{
+    padding-bottom: 1rem;
+}
+
+a{
+    font-weight: bold;
+   font-family: 'Fugaz One';
+}
+
+a:hover {
+    background-color: #FF4D00;
+    color: #FFFFFF;
+  }
+
+  .search-bar {
+    flex-grow: 1;
+    margin: 0 10px;
+   }
+   
+   .search-bar input {
+    width: 100%;
+    padding: 5px;
+    border-radius: 20px;
+   }
