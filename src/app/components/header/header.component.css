@@ -32,12 +32,13 @@ svg{
     padding-bottom: 1rem;
 }
 
+
 a{
     font-weight: bold;
    font-family: 'Fugaz One';
 }
 
-a:hover {
+.nav-scroller a:hover {
     background-color: #FF4D00;
     color: #FFFFFF;
   }

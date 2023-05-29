@@ -6,6 +6,8 @@ import { Component } from '@angular/core';
   templateUrl: './personalizado.component.html',
   styleUrls: ['./personalizado.component.css']
 })
+
+
 export class PersonalizadoComponent {
 
 }
