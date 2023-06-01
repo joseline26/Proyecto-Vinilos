@@ -1,0 +1,27 @@
+footer{
+    align-content: center;
+    margin: 10% 0% 0% 0%;
+}
+
+.row{
+    font-family: 'Monda';
+    
+}
+
+p{
+    font-size: x-small;
+
+}
+
+.bi{
+   font-size: xx-large;
+}
+
+.col-md-3{
+    margin: 0% 0% 0% 2% ;
+
+}
+
+ul{
+    margin-right: 2%;
+}

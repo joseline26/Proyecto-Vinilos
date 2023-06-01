@@ -38,13 +38,20 @@ div {
     font-family: 'Monda';
   }
 
-  .carrito{
-    color: white;
-    background-color: #F36C33;
-    border-radius: 40px;
-    width: 40%;
+  .bg-cart {
+    margin-top: 0%;
+    background-color:#F36C33;
+    color:#fff;
     font-family: 'Monda';
-  }
+    border-radius: 30px;
+}
+
+.bg-cart:hover {
+    
+    color:white;
+    background-color: black;
+    border-color: white;
+}
 
 
   .file{
@@ -129,3 +136,7 @@ ul {
         padding: 3%;
       }
 
+      .precio{
+        margin-top: -10%;
+        margin-bottom: 15%;
+      }

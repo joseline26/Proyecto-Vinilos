@@ -1,0 +1,107 @@
+.navbar{
+    color: white;
+    background-color: #8A58EB;
+    margin: 0% 10% 0% 10%;
+    justify-content: center;
+
+}
+
+.container-fluid{
+    color: white;
+}
+
+.btn{
+    color: white;
+}
+
+.btn-group{
+    margin-left: 5.5rem!important;
+    color: white;
+    font-family: 'Fugaz One';
+
+}
+
+.dropdown-menu{
+    font-family: 'Monda';
+}
+
+
+
+
+
+
+
+
+
+.mt-50{
+
+    margin-top: 50px;
+}
+
+.mb-50{
+
+    margin-bottom: 50px;
+}
+
+
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: black;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .1875rem;
+    color: white;
+}
+
+.card-img-actions {
+    position: relative;
+}
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.card-img{
+
+    width: 350px;
+}
+
+.bg-cart {
+    background-color:#F36C33;
+    color:#fff;
+    font-family: 'Monda';
+    margin-top: 5%;
+    border-radius: 20px;
+}
+
+.bg-cart:hover {
+    
+    color:white;
+    background-color: black;
+    border-color: white;
+}
+
+.bg-buy {
+    color:#fff;
+    padding-right: 29px;
+}
+.bg-buy:hover {
+    
+    color:#fff;
+}
+
+a{
+
+    text-decoration: none !important;
+}
