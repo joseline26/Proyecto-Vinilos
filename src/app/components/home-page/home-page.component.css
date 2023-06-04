@@ -1,0 +1,206 @@
+/* DPV */
+.DPV {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;    
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: right;
+    position: relative;
+  }
+  
+  .text {
+      position: absolute;
+      right: 50px;
+      margin-left: 40%;
+  }
+  
+  
+  .DPV  h1{
+    font-weight: bold;
+    font-family: 'Fugaz One';
+    font-size: 90px;
+    color: #fff;
+    
+  }
+  
+  .DPV  button {
+    background-color: white;
+    color: #000;
+    padding: 15px 35px;
+    /*border: none;*/
+    border-radius: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-right: 60px;
+  }
+  
+  .DPV  button:hover {
+      border-color: white;
+      background-color: black;
+      color:white;
+  }
+  
+  .BVM {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .BVM button{
+    background-color: white;
+    color: #000;
+    padding: 15px 35px;
+    border-radius: 100px;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 60px;
+  margin-bottom: 60px;
+  
+  }
+  
+  .BVM  button:hover {
+      border-color: white;
+      background-color: transparent;
+      color:white;
+  }
+  
+  /*TITULO LMV*/
+  
+  .LMV  h1 {
+    font-weight: bold;
+    font-family: 'Fugaz One';
+    font-size: 60px;
+    color: #fff;
+    padding-top: 90px;
+    text-align: center;
+      
+  }
+  
+  .LMV2  h1 {
+    font-weight: bold;
+    font-family: 'Fugaz One';
+    font-size: 60px;
+    color: #fff;
+    padding-top: 90px;
+    text-align: center;
+      
+  }
+  
+  .S2{
+      background-color: black;
+  }
+  
+  
+  /*TABLAS*/
+  
+.s1{
+    background-color: #820EC7;
+}
+
+  body {
+      background-color: #820EC7;
+      font-family: 'Monda';
+  }
+  
+  .mt-50{
+  
+      margin-top: 50px;
+  }
+  
+  
+  .card {
+      font-family: 'Monda' !important;
+      position: relative;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      min-width: 0;
+      word-wrap: break-word;
+      background-color: #820EC7;
+      background-clip: border-box;
+      border-radius: .1875rem;
+      border: none;
+      color: white;
+  }
+  
+  .card2 {
+      font-family: 'Monda' !important;
+      position: relative;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      min-width: 0;
+      word-wrap: break-word;
+      background-clip: border-box;
+      border-radius: .1875rem;
+      border: none;
+      color: white;
+  }
+  
+  .card-img-actions {
+      position: relative;
+  }
+  
+  .card-body {
+      -ms-flex: 1 1 auto;
+      flex: 1 1 auto;
+      padding: 1.25rem;
+      text-align: center;
+      color: white;
+  }
+  
+  .card-img{
+      width: 350px;
+  }
+  
+  .bg-cart {
+      background-color:#F36C33;
+      color:#fff;
+      font-family: 'Monda';
+      margin-top: 5%;
+      border-radius: 20px;
+  }
+  
+  .bg-cart:hover {
+      
+      color:white;
+      background-color: #820EC7;
+      border-color: white;
+  }
+  
+  .bg-cart2 {
+      background-color:#F36C33;
+      color:#fff;
+      font-family: 'Monda';
+      margin-top: 5%;
+      border-radius: 20px;
+  }
+  
+  .bg-cart2:hover {
+      
+      color:white;
+      background-color: transparent;
+      border-color: white;
+  }
+  
+  .bg-buy {
+      color:#fff;
+      padding-right: 29px;
+  }
+  
+  .bg-buy:hover {
+      
+      color:#fff;
+  }
+  
+  a{
+  
+      text-decoration: none !important;
+  }

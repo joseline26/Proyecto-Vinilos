@@ -1,1 +1,136 @@
-<p>carrito works!</p>
+
+
+  <!-- contenido de la página -->
+  <!-- tu carrito -->
+  <div class="container">
+    <div class="column left">
+      <h1>TU BOLSA</h1>
+      <div class="cart-items">
+        <div class="cart-item">
+          
+          
+          
+          <!-- <div class="product-details">
+            <h3>Paramore: Brand New Eyes</h3>
+          <div class="product-details">
+            <img src="../../../assets/resources/VP2.png" alt="Paramore">
+            <p class="price">$29.99</p>
+            <div class="quantity">
+              <button class="btn-quantity">-</button>
+              <span>1</span>
+              <button class="btn-quantity">+</button>
+            </div>
+          </div>
+          <br>
+          <br>
+
+            <h3>Gracie Abrams: Minor</h3>
+            <img src="../../../assets/resources/VG.png" alt="Gracie Abrams">
+            <p class="price">$29.99</p>
+            <div class="quantity">
+              <button class="btn-quantity">-</button>
+              <span>1</span>
+              <button class="btn-quantity">+</button>
+            </div>
+          </div>
+          
+          <br>
+
+         -->
+        <!-- <p class="total">Total: $59.98</p> -->
+        </div>
+        
+        <!-- Agregar más productos del carrito aquí -->
+        <div class="cart-items">
+            <div class="cart-item" *ngFor="let product of cartProducts">
+              <h3>{{ product.name }}</h3>
+              <div class="product-details">
+                <img [src]="product.image" [alt]="product.name">
+                <p class="price">{{ product.price }}</p>
+                <div class="quantity">
+                  <button class="btn-quantity" (click)="removeFromCart(product)">-</button>
+                  <span>{{ product.quantity }}</span>
+                  <button class="btn-quantity" (click)="addToCart(product)">+</button>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+      <!-- tarjeta datos -->
+    <div class="right-section">
+      <h3>Detalles de tu Tarjeta</h3>
+      <form>
+        <label for="card-name">Nombre en la Tarjeta:</label>
+        <input type="text" id="card-name" required>
+
+        <label for="card-number">Número de Tarjeta:</label>
+        <input type="number" id="card-number" required>
+
+        <label for="expiration-date">Fecha de Expiración:</label>
+        <input type="number" id="expiration-date" placeholder="MM/YY" required>
+
+        <label for="cvv">CVV:</label>
+        <input type="number" id="cvv" required>
+
+        <h3>Datos de Envío</h3>
+        
+        <label for="phone">Celular:</label>
+        <input type="number" id="phone" required>
+
+        <label for="address">Dirección de Envío:</label>
+        <input type="text" id="address" required>
+
+        <label for="postal-code">Código Postal:</label>
+        <input type="number" id="postal-code" required>
+
+        <label for="city">Ciudad:</label>
+        <input type="text" id="city" required>
+<br>
+        <button type="submit">Finalizar Compra</button>
+      </form>
+    </div>
+      
+  </div><!-- contenedor 1 -->
+
+      <!-- recomendaciones -->
+      <div class="recomendaciones">
+      <h2>Recomendaciones</h2></div>
+
+      <div class="product-row">
+        <div class="product">
+          <h3>Billie Eilish: Don't Smile at Me</h3>
+          <img src="../../../assets/resources/VBE.png" alt="Billie Eilish">
+          <p>$29.99</p>
+          <button class="btn-add-to-cart" (click)="addToCart({ name: 'Billie Eilish: Dont Smile at Me', image: '../../../assets/resources/VBE.png', price: '$29.99', quantity: 1 })">Agregar a mi bolsa</button>
+        </div>
+        <div class="product">
+          <h3>Paramore: This Is Why</h3>
+          <img src="../../../assets/resources/VP.png" alt="Paramore">
+          <p>$29.99</p>
+          <button class="btn-add-to-cart" (click)="addToCart({ name: 'Paramore: This Is Why', image: '../../../assets/resources/VP.png', price: '$29.99', quantity: 1 })">Agregar a mi bolsa</button>
+        </div>
+        <div class="product">
+          <h3>Ed Sheeran: Equal</h3>
+          <img src="../../../assets/resources/VES.png" alt="Ed Sheeran">
+          <p>$29.99</p>
+          <button class="btn-add-to-cart" (click)="addToCart({ name: 'Ed Sheeran: Equal', image: '../../../assets/resources/VES.png', price: '$29.99', quantity: 1 })">Agregar a mi bolsa</button>
+        </div>
+        <div class="product">
+          <h3>Taylor Swift: Midnights</h3>
+          <img src="../../../assets/resources/VT.png" alt="Taylor Swift">
+          <p>$29.99</p>
+          <button class="btn-add-to-cart" (click)="addToCart({ name: 'Taylor Swift: Midnights', image: '../../../assets/resources/VT.png', price: '$29.99', quantity: 1 })">Agregar a mi bolsa</button>
+        </div>
+      </div>
+    
+    
+
+  

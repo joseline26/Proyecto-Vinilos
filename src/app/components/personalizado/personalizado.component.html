@@ -3,13 +3,19 @@
 <h1 style="color: #FEBD5D;">TU VINILO</h1>
 <div class="row mb-2">
     <div class="col-md-6">
-        <div class="row g-0 overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="row g-0 overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative image_container">
             <div class="col-p-4 d-flex flex-column position static">
-            <div class="preview">
-            <img src="../../../assets/resources/vinylpers.png" alt="Vinilo">
-            </div>
+
+              <img src="{{imageSrc}}">
+            <div>{{messageText}}</div> 
+
+            <img class="d-none d-lg-block d-print-block" src="../../../assets/resources/vinylpers.png">
+
+
             </div>
         </div>
+
+
         <div class="precio">
             <h1 class="d-inline-black mb-3">$100.00</h1>
             
@@ -30,23 +36,84 @@
                 </div>
 
                 <h3 class="d-inline-black mb-3">COLOR BASE</h3>
+               
+
+
+                <!-- BOTONES COLORES-->
                 <div class="containerColors">
                 <div class="colors">
+                  
+
+
+                  <button *ngFor="let imageButton of imageButtons; let data-color = index" (click)="onClick(imageButton)" class="button variacion">
+                    <ul> 
+                      <li data-color="#E91E63" style="background-color:#ff0000 ;"></li>
+                  </ul>
+                  </button>
+
+
+                  <button *ngFor="let imageButton of imageButtons2; let data-color = index" (click)="onClick(imageButton)" class="button variacion">
                     <ul>
-                        
-                        <li data-color="#E91E63" style="background-color:#E91E63 ;"></li>
-                        <li data-color="#9C27B0" style="background-color: #9C27B0;"></li>
-                        <li data-color="#673AB7" style="background-color:#673AB7 ;"></li>
-                        <li data-color="#2196F3" style="background-color:#2196F3 ;"></li>
-                        <li data-color="#4CAF50" style="background-color:#4CAF50 ;"></li>
-                        <li data-color="#FFEB3B" style="background-color:#FFEB3B ;"></li>
-                        <li data-color="#FF9800" style="background-color:#FF9800 ;"></li>
-                        <li data-color="#795548" style="background-color:#795548 ;"></li>
-                        <li class="black" data-color="#9E9E9E" style="background-color: black;"></li>
-                        <li data-color="#607D8B" style="background-color: white ;"></li>
-                        <!-- <li data-color="#795548" style="background-color:#795548 ;"></li> -->
-                        
-                    </ul>
+                      <li data-color="#9C27B0" style="background-color: #cb1598;"></li>
+                  </ul>
+                  </button>
+
+
+                  <button *ngFor="let imageButton of imageButtons3; let data-color = index" (click)="onClick(imageButton)" class="button variacion">
+                    <ul>
+                      <li data-color="#673AB7" style="background-color:#673AB7 ;"></li>
+                  </ul>
+                  </button>
+
+                  <button *ngFor="let imageButton of imageButtons4; let data-color = index" (click)="onClick(imageButton)" class="button variacion">
+                    <ul>
+                      <li data-color="#2196F3" style="background-color:#2196F3 ;"></li>
+                  </ul>
+                  </button>
+
+
+                  <button *ngFor="let imageButton of imageButtons5; let data-color = index" (click)="onClick(imageButton)" class="button variacion">
+                    <ul>
+                      <li data-color="#4CAF50" style="background-color:#4CAF50 ;"></li>
+                  </ul>
+                  </button>
+
+
+                  <button *ngFor="let imageButton of imageButtons6; let data-color = index" (click)="onClick(imageButton)" class="button variacion">
+                    <ul>
+                      <li data-color="#FFEB3B" style="background-color:#ffe41a ;"></li>
+                  </ul>
+                  </button>
+
+
+                  <button *ngFor="let imageButton of imageButtons7; let data-color = index" (click)="onClick(imageButton)" class="button variacion">
+                    <ul>
+                      <li data-color="#FF9800" style="background-color:#FF9800 ;"></li>
+                  </ul>
+                  </button>
+
+
+                  <button *ngFor="let imageButton of imageButtons8; let data-color = index" (click)="onClick(imageButton)" class="button variacion">
+                    <ul>
+                      <li data-color="#795548" style="background-color:#795548 ;"></li>
+                  </ul>
+                  </button>
+
+
+                  <button *ngFor="let imageButton of imageButtons9; let data-color = index" (click)="onClick(imageButton)" class="button variacion">
+                    <ul>
+                      <li class="black" data-color="#9E9E9E" style="background-color: black;"></li>
+                  </ul>
+                  </button>
+
+
+                  <button *ngFor="let imageButton of imageButtons10; let data-color = index" (click)="onClick(imageButton)" class="button variacion">
+                    <ul>
+                      <li data-color="#607D8B" style="background-color: white ;"></li>
+                      <!-- <li data-color="#795548" style="background-color:#795548 ;"></li> -->
+                  </ul>
+                  </button>
+                    
                 </div>
                 
             </div>
